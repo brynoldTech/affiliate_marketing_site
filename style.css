@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #F7D716;
+    padding: 15px 50px;
+}
+.main-nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    transition: 0.7s;
+
+}
+.main-nav li  :hover{
+    background-color: #fff;
+    color: #F7D716;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    background-color: #F7D716;
+    color: #333;
+    font-size: 20px;
+    padding: 10 40;
+    border-radius: 5px;
+
+}
+.main-nav input[type=text]{
+    float: right;
+    padding: 10px 20px;
+    border:none;
+    margin-top: 14px;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.cart{
+    position: relative;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 10 20;
+    margin: 8px;
+    border-radius: 5px;
+}
+.cart-count{
+    position: absolute;
+    top: -20;
+    right: -10;
+    background-color: #D61C4E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.product_list_title{
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.cards_list{
+    display:grid ;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+
+}
+.product{
+    border:2px solid #F7D716;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.product :hover{
+    transform: scale(1.1);
+}
+.product img{
+    width: 400;
+    margin: 10px;
+    transition: transform .5s ;
+}
+.product img:hover{
+    transform: scale(1.2);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.price{
+    display: flex;
+    padding: 10px;
+}
+.price h3{
+    margin-left: 20px;
+    margin-top: 3px;
+    color: #6BCB77;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20;
+    border: 2px solid #6BCB77;
+    background-color: #333;
+
+}
+#amazon_logo ,#flipkart_logo{
+    width: 100px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+
+   
+}
+
+
+
+
+
+
+
